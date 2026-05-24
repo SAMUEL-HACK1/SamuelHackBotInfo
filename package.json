@@ -1,0 +1,23 @@
+{
+  "name": "samuel-hack-store",
+  "version": "1.0.0",
+  "description": "Bot oficial de Samuel Hack Store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0",
+    "firebase": "^10.0.0",
+    "node-telegram-bot-api": "^0.65.0",
+    "pino": "^8.19.0",
+    "qrcode": "^1.5.3",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
